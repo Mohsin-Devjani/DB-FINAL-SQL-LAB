@@ -1,0 +1,30 @@
+Simple:
+1. Display all data from invoice master where return flag is null
+2. Display first two characters from each customer's name
+3. Display invoice date and party name of GULSHAN area.
+4. List of items sorted by type, brand, shade, and size
+5. List of items of ‘JET BLACK 2QU’ shade
+6. List of items whose stock is neither 0 nor negative
+7. List of items with price greater than 250
+8. Display party name, party address, invoice date for first three months of 2013.
+9. Display latest and oldest invoice dates
+10. Display number of customers in party table
+11. Display number of items in item table
+12. Display party name, invoice date, item shade, item type, item brand, item size, quantity, rate, and amount for BISMILLAH PAINTS
+13. Display system date
+14. Display My name is <<YOURNAME>>
+15. Display sum of 2+2
+ 
+Normal:
+16. Display name of party with maximum characters in its name.
+17. List of Invoices with more than 10 detail lines
+18. List of items of POWDER PUTTY type which have never been sold
+19. Display invoice detail data with no matching record in invoice master
+20. Display invoice amount of latest invoice
+21. Display name of the party which has purchased maximum number of DRUMS in 2013
+
+PLSQL:
+22. Create a function which will accept party id and date. The function will return all the payments made by party till that date.
+ 
+TRIGGER:
+23. Create table ITEM_BRAND_LOG with ITEM_ID, OLD_BRAND, NEW_BRAND, CHANGE_TIMESTAMP fields. Whenever, item brand is changed a log entry should be generated in item brand log table.
